@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HelloWorldV2
 {
-    class Program
+    public sealed class Program
     {
-        private static void Main(String[] args)
+        public static void Main(String[] args)
         {
             Console.WriteLine(CreateMessage());
         }
