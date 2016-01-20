@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HelloWorldV2
+﻿namespace HelloWorldV2
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public sealed class Program
     {
         public static void Main(String[] args)
@@ -15,7 +15,7 @@ namespace HelloWorldV2
 
         public static String CreateMessage()
         {
-            return "Hello World!";
+            return "Hello World";
         }
     }
 }
